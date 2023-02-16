@@ -45,11 +45,8 @@
 在训练中，我们主要使用了VGG，ResNet，DenseNet，InceptionResNet四个系列的模型，用以对比网络深度分别为20，50，120，570时对模型训练的影响，为简化使用，在代码中，我们仅给出[基于迁移学习的VGG16模型代码实现](https://github.com/zjese/Sleeping-posture-detection/blob/master/train_VGG16.ipynb)。
 
 ## 损失函数及优化器
-|loss |optimizer|
-|    :----:              |    :----:           |
-|categorical_crossentropy|Adam,SGD,Ftrl,Nadam   |
 
-<table class="MsoTableGrid" border="1" cellspacing="0" cellpadding="0" style="border-collapse:collapse;border:none;mso-border-alt:solid windowtext .5pt;
+<table class="MsoTableGrid" border="1" align="center" cellspacing="0" cellpadding="0" style="border-collapse:collapse;border:none;mso-border-alt:solid windowtext .5pt;
  mso-yfti-tbllook:1184;mso-padding-alt:0cm 5.4pt 0cm 5.4pt">
  <tbody><tr style="mso-yfti-irow:0;mso-yfti-firstrow:yes">
   <td width="277" style="width:207.4pt;border:solid windowtext 1.0pt;mso-border-alt:
