@@ -1,0 +1,1 @@
+To collect samples for this project, you need to prepare a kinect2 camera.
