@@ -57,7 +57,7 @@
 <p align="center"><font face="黑体" size=2.>表1 示例表格</font></p>
 
 <div class="center">
-  
+
 |loss |optimizer|
 |    :----:              |    :----:           |
 |categorical_crossentropy|Adam,SGD,Ftrl,Nadam   |
