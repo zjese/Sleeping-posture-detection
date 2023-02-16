@@ -49,6 +49,58 @@
 |    :----:              |    :----:           |
 |categorical_crossentropy|Adam,SGD,Ftrl,Nadam   |
 
+<table class="MsoTableGrid" border="1" cellspacing="0" cellpadding="0" style="border-collapse:collapse;border:none;mso-border-alt:solid windowtext .5pt;
+ mso-yfti-tbllook:1184;mso-padding-alt:0cm 5.4pt 0cm 5.4pt">
+ <tbody><tr style="mso-yfti-irow:0;mso-yfti-firstrow:yes">
+  <td width="277" style="width:207.4pt;border:solid windowtext 1.0pt;mso-border-alt:
+  solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="center" style="text-align:center"><b><span lang="EN-US">loss<o:p></o:p></span></b></p>
+  </td>
+  <td width="277" style="width:207.4pt;border:solid windowtext 1.0pt;border-left:
+  none;mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="center" style="text-align:center"><b><span lang="EN-US">optimizer<o:p></o:p></span></b></p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow:1">
+  <td width="277" rowspan="4" style="width:207.4pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="center" style="text-align:center"><span class="SpellE"><span lang="EN-US">categorical_crossentropy</span></span></p>
+  </td>
+  <td width="277" style="width:207.4pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="center" style="text-align:center"><span lang="EN-US">Adam</span></p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow:2">
+  <td width="277" style="width:207.4pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="center" style="text-align:center"><span lang="EN-US">SGD</span></p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow:3">
+  <td width="277" style="width:207.4pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="center" style="text-align:center"><span class="SpellE"><span lang="EN-US">Ftrl</span></span></p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow:4;mso-yfti-lastrow:yes">
+  <td width="277" style="width:207.4pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="center" style="text-align:center"><span class="SpellE"><span lang="EN-US">Nadam</span></span></p>
+  </td>
+ </tr>
+</tbody></table>
+
 ## 测试
 在实验中，80%的数据用于训练，20%的数据用于测试，经过整理，给出两个主要实验结果：1.样本质量对模型的影响；2.网络深度对模型的影响。<br>
 ### 样本质量对模型的影响
