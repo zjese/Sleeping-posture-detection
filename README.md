@@ -46,48 +46,10 @@
 
 ## 损失函数及优化器
 <table align="center">
-
 |loss |optimizer|
 |    :----:              |    :----:           |
 |categorical_crossentropy|Adam,SGD,Ftrl,Nadam   |
-
 </table>
-
-<table align="center">
-<tr valign="bottom" align="center">
-    <td>Backbones</td>
-    <td>Loss functions</td>
-    <td>Optimizers</td>
-    <td>Augmentations</td>
-</tr>
-<tr valign="top">
-    <td>
-    <ul>
-        <li><a href="https://arxiv.org/abs/1905.11946">Efficientnet</a></li>
-        <li><a href="https://arxiv.org/abs/2201.03545">ConvNeXt</a></li>
-        <li><a href="https://arxiv.org/abs/1911.11907">Ghostnet</a></li>
-        <li>Ghost-efficientnetv2</li>
-    </ul>
-    </td>
-    <td>
-    <ul>
-        <li>Cross Entropy</li>
-    </ul>
-    </td>
-    <td>
-    <ul>
-        <li>Adam</li>
-    </ul>
-    </td>
-    <td>
-    <ul>
-        <li>RandAug</li>
-    </ul>
-    </td>
-</tr>
-</table>
-
-
 
 ## 测试
 在实验中，80%的数据用于训练，20%的数据用于测试，经过整理，给出两个主要实验结果：1.样本质量对模型的影响；2.网络深度对模型的影响。<br>
