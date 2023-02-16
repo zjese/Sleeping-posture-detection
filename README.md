@@ -51,17 +51,14 @@
   display: table;
   margin-left: auto;
   margin-right: auto;
-}
-</style>
+}</style>
 
 <p align="center"><font face="黑体" size=2.>表1 示例表格</font></p>
 
 <div class="center">
-
 |loss |optimizer|
 |    :----:              |    :----:           |
 |categorical_crossentropy|Adam,SGD,Ftrl,Nadam   |
-
 </div>
 
 ## 测试
