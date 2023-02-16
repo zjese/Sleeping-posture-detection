@@ -45,24 +45,15 @@
 在训练中，我们主要使用了VGG，ResNet，DenseNet，InceptionResNet四个系列的模型，用以对比网络深度分别为20，50，120，570时对模型训练的影响，为简化使用，在代码中，我们仅给出[基于迁移学习的VGG16模型代码实现](https://github.com/zjese/Sleeping-posture-detection/blob/master/train_VGG16.ipynb)。
 
 <style>
-.center 
+table
 {
-  width: auto;
-  display: table;
-  margin-left: auto;
-  margin-right: auto;
+    margin: auto;
 }
 </style>
 
-<p align="center"><font face="黑体" size=2.>表1 示例表格</font></p>
-
-<p align="center">
-  
 |loss |optimizer|
 |    :----:              |    :----:           |
 |categorical_crossentropy|Adam,SGD,Ftrl,Nadam   |
-  
-</p>
 
 ## 测试
 在实验中，80%的数据用于训练，20%的数据用于测试，经过整理，给出两个主要实验结果：1.样本质量对模型的影响；2.网络深度对模型的影响。<br>
