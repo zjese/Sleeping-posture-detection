@@ -44,7 +44,7 @@
 ## 训练
 在训练中，我们主要使用了VGG，ResNet，DenseNet，InceptionResNet四个系列的模型，用以对比网络深度分别为20，50，120，570时对模型训练的影响，为简化使用，在代码中，我们仅给出[基于迁移学习的VGG16模型代码实现](https://github.com/zjese/Sleeping-posture-detection/blob/master/train_VGG16.ipynb)。
 
-<style>
+.<style>
 table
 {
     margin: auto;
