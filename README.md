@@ -56,13 +56,13 @@
 
 <p align="center"><font face="黑体" size=2.>表1 示例表格</font></p>
 
-<div class="center">
+<p align="center">
   
 |loss |optimizer|
 |    :----:              |    :----:           |
 |categorical_crossentropy|Adam,SGD,Ftrl,Nadam   |
   
-</div>
+</p>
 
 ## 测试
 在实验中，80%的数据用于训练，20%的数据用于测试，经过整理，给出两个主要实验结果：1.样本质量对模型的影响；2.网络深度对模型的影响。<br>
