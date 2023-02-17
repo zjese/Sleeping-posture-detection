@@ -99,7 +99,7 @@
 </tbody></table>
 
 ## 测试
-在实验中，80%的数据用于训练，20%的数据用于测试，这里建议您使用api接口train_test_split<br>
+在实验中，80%的数据用于训练，20%的数据用于测试，这里建议您使用api接口**train_test_split**对数据集进行划分<br>
 ```
 (trainX, testX, trainY, testY) = train_test_split(data, labels,
                                                   test_size=0.20, stratify=labels, random_state=42)
