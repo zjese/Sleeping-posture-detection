@@ -76,11 +76,7 @@ baseModel = VGG16(weights="imagenet", include_top=False,
   border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
   mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
   mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt">
-  <p class="MsoNormal" align="center" style="text-align:center"><span lang="EN-US">
-    <ul>
-    <a herf="https://www.tensorflow.org/api_docs/python/tf/keras/optimizers/Adam">Adam</a>
-    </ul>
-    </span></p>
+  <p class="MsoNormal" align="center" style="text-align:center"><span lang="EN-US">Adam</span></p>
   </td>
  </tr>
  <tr style="mso-yfti-irow:2">
