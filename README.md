@@ -106,7 +106,7 @@ baseModel = VGG16(weights="imagenet", include_top=False,
 </tbody></table>
 <br>
 
-推荐使用该接口切换 **[tensorflow.keras.optimizers](https://www.tensorflow.org/api_docs/python/tf/keras/optimizers)** 不同的优化器<br>
+推荐使用该接口 **[tensorflow.keras.optimizers](https://www.tensorflow.org/api_docs/python/tf/keras/optimizers)** 切换不同的优化器<br>
 
 ```
 INIT_LR = 1e-3
