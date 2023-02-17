@@ -76,7 +76,7 @@ baseModel = VGG16(weights="imagenet", include_top=False,
   border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
   mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
   mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt">
-  <p class="MsoNormal" align="center" style="text-align:center"><span lang="EN-US">Adam</span></p>
+  <p class="MsoNormal" align="center" style="text-align:center"><span lang="EN-US">[Adam](https://www.tensorflow.org/api_docs/python/tf/keras/optimizers/Adam)</span></p>
   </td>
  </tr>
  <tr style="mso-yfti-irow:2">
@@ -104,6 +104,13 @@ baseModel = VGG16(weights="imagenet", include_top=False,
   </td>
  </tr>
 </tbody></table>
+
+
+```
+INIT_LR = 1e-3
+EPOCHS = 25
+opt = Adam(lr=INIT_LR, decay=INIT_LR / EPOCHS)
+```
 
 ## 测试
 在实验中，80%的数据用于训练，20%的数据用于测试，这里建议您使用**sklearn**的api接口**train_test_split**对数据集进行划分<br>
