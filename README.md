@@ -53,7 +53,7 @@ baseModel = VGG16(weights="imagenet", include_top=False,
 
 ## 损失函数及优化器
 
-<table class="MsoTableGrid" border="1" align="center" cellspacing="0" cellpadding="0" style="border-collapse:collapse;border:none;mso-border-alt:solid windowtext .5pt;
+<table class="MsoTableGrid" align="center" border="1" cellspacing="0" cellpadding="0" style="border-collapse:collapse;border:none;mso-border-alt:solid windowtext .5pt;
  mso-yfti-tbllook:1184;mso-padding-alt:0cm 5.4pt 0cm 5.4pt">
  <tbody><tr style="mso-yfti-irow:0;mso-yfti-firstrow:yes">
   <td width="277" style="width:207.4pt;border:solid windowtext 1.0pt;mso-border-alt:
@@ -76,7 +76,7 @@ baseModel = VGG16(weights="imagenet", include_top=False,
   border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
   mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
   mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt">
-  <p class="MsoNormal" align="center" style="text-align:center"><span lang="EN-US">Adam</span></p>
+  <p class="MsoNormal" align="center" style="text-align:center"><span lang="EN-US"><a href="https://www.tensorflow.org/api_docs/python/tf/keras/optimizers/Adam">Adam</a></span></p>
   </td>
  </tr>
  <tr style="mso-yfti-irow:2">
@@ -84,7 +84,7 @@ baseModel = VGG16(weights="imagenet", include_top=False,
   border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
   mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
   mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt">
-  <p class="MsoNormal" align="center" style="text-align:center"><span lang="EN-US">SGD</span></p>
+  <p class="MsoNormal" align="center" style="text-align:center"><span lang="EN-US"><a href="https://www.tensorflow.org/api_docs/python/tf/keras/optimizers/experimental/SGD">SGD</a></span></p>
   </td>
  </tr>
  <tr style="mso-yfti-irow:3">
@@ -92,7 +92,7 @@ baseModel = VGG16(weights="imagenet", include_top=False,
   border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
   mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
   mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt">
-  <p class="MsoNormal" align="center" style="text-align:center"><span class="SpellE"><span lang="EN-US">Ftrl</span></span></p>
+  <p class="MsoNormal" align="center" style="text-align:center"><span lang="EN-US"><a href="https://www.tensorflow.org/api_docs/python/tf/keras/optimizers/experimental/Ftrl">Ftrl</a></span></p>
   </td>
  </tr>
  <tr style="mso-yfti-irow:4;mso-yfti-lastrow:yes">
@@ -100,11 +100,10 @@ baseModel = VGG16(weights="imagenet", include_top=False,
   border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
   mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
   mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt">
-  <p class="MsoNormal" align="center" style="text-align:center"><span class="SpellE"><span lang="EN-US">Nadam</span></span></p>
+  <p class="MsoNormal" align="center" style="text-align:center"><span lang="EN-US"><a href="https://www.tensorflow.org/api_docs/python/tf/keras/optimizers/experimental/Nadam">Nadam</a></span></p>
   </td>
  </tr>
 </tbody></table>
-
 
 ```
 INIT_LR = 1e-3
