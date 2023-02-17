@@ -103,7 +103,8 @@
 ```
 (trainX, testX, trainY, testY) = train_test_split(data, labels,
                                                   test_size=0.20, stratify=labels, random_state=42)
-```<br>
+```
+<br>
 经过整理，给出两个主要实验结果：1.样本质量对模型的影响；2.网络深度对模型的影响。<br>
 ### 样本质量对模型的影响
 <div align=center><img src="https://github.com/zjese/Sleeping-posture-detection/blob/master/img/4%E7%A7%8D%E6%A0%B7%E6%9C%AC%E5%88%86%E7%B1%BB%E8%AF%AF%E5%B7%AE%E5%AF%B9%E6%AF%94.png" width="40%" height="40%"></div>
