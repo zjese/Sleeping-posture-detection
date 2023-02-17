@@ -99,8 +99,9 @@
 </tbody></table>
 
 ## 测试
-在实验中，80%的数据用于训练，20%的数据用于测试，这里建议您使用api接口**train_test_split**对数据集进行划分<br>
+在实验中，80%的数据用于训练，20%的数据用于测试，这里建议您使用**sklearn**的api接口**train_test_split**对数据集进行划分<br>
 ```
+from sklearn.model_selection import train_test_split
 (trainX, testX, trainY, testY) = train_test_split(data, labels,
                                                   test_size=0.20, stratify=labels, random_state=42)
 ```
