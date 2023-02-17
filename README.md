@@ -42,7 +42,14 @@
 <div align=center><img src="https://github.com/zjese/Sleeping-posture-detection/blob/master/img/%E6%B6%B5%E7%9B%96%E6%A0%B7%E6%9C%AC_%E9%AA%A8%E9%AA%BC%E5%9B%BE%E6%95%B0%E6%8D%AE%E9%9B%86.png" width="60%" height="60%"></div>
 
 ## 训练
-在训练中，我们主要使用了VGG，ResNet，DenseNet，InceptionResNet四个系列的模型，用以对比网络深度分别为20，50，120，570时对模型训练的影响，为简化使用，在代码中，我们仅给出[基于迁移学习的VGG16模型代码实现](https://github.com/zjese/Sleeping-posture-detection/blob/master/train_VGG16.ipynb)。
+在训练中，我们主要使用了VGG，ResNet，DenseNet，InceptionResNet四个系列的模型，用以对比网络深度分别为20，50，120，570时对模型训练的影响，为简化使用，在代码中，我们仅给出[基于迁移学习的VGG16模型代码实现](https://github.com/zjese/Sleeping-posture-detection/blob/master/train_VGG16.ipynb)。<br>
+我们推荐您使用api接口来 **[tensorflow.keras.applications](https://www.tensorflow.org/api_docs/python/tf/keras/applications)** 切换不同的模型<br>
+```
+from tensorflow.keras.applications import VGG16
+
+baseModel = VGG16(weights="imagenet", include_top=False,
+                  input_tensor=Input(shape=(260, 260, 3)))
+```
 
 ## 损失函数及优化器
 
